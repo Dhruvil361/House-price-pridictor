@@ -17,7 +17,8 @@ with st.sidebar:
     )
 
 
-data = pd.read_csv("E:/vs code/sem 5/iml micro project/house_price_dataset.csv")
+data = pd.read_csv("house_price_dataset.csv")
+
     
 if selected=="Dashboard":
     st.title("Interactive House Price Prediction System")
